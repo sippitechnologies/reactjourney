@@ -1,5 +1,4 @@
-function showOutput()
+function showOutput(message)
 {
-    document.getElementById('output').textContent = "Welcome to HTML 5";
+    document.getElementById('output').textContent = message;
 }
-showOutput();

@@ -1,1 +1,1 @@
-showOutput();
+showOutput("Good Morning Friends");
