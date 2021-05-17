@@ -19,15 +19,24 @@ character =10;
 //const keyword use
 //value can't be change the during program execuation
 const test=10;
-const value = "Deepak";
-showOutput(test);
+const value=20;
+
+
+
+
+
 //var keyword uses
 
-showOutput(city);/*Can't give error in case of var keyword it doesn't matter where you use initialize 
+/*Can't give error in case of var keyword it doesn't matter where you use initialize 
 the variable it will work. var keyword scope is global that why it's dangerous to use
 Note : always try to use const let keyword for variables use in javascript
+
+
 */
-var city= "Delhi"
+
+
+showOutput(value);
+
 
 
 
