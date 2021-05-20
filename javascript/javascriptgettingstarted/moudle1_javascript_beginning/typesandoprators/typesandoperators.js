@@ -78,6 +78,5 @@ a=a+10;
 showOutput(a);
 a+=10;
 showOutput(a);
-
 a*=10;
 showOutput(`Result7=${result7}`);
