@@ -70,8 +70,18 @@ else
 let result = (a>b)? "A is Greater" : "B is Greater"
 showOutput(result);
 
-
+let plus = 1.1+1.3;
+showOutput(plus);
  //== and === Operator
+
+ if(+(plus.toFixed(2))===2.4)
+ {
+     showOutput("Both Value are equal");
+ }
+ if((plus.toFixed(2))===2.4)
+ {
+     showOutput("Both Value are equal");
+ }
 if(1=="1")
 {
     showOutput("We are equal");
