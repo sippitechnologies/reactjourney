@@ -78,8 +78,9 @@ showOutput(plus);
  {
      showOutput("Both Value are equal");
  }
- if((plus.toFixed(2))===2.4)
+ if((plus.toFixed(1))===2.4)
  {
+     showOutput(plus.toFixed(1));
      showOutput("Both Value are equal");
  }
 if(1=="1")
@@ -90,8 +91,6 @@ if(!(1==="1"))
 {
     showOutput("We are not equal");
 }
-
-
 function showOutput(message)
 {
     console.log(message);
