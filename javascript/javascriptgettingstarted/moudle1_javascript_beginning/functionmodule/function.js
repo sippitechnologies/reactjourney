@@ -47,7 +47,7 @@ function checkScope()
     let message = "Testing";
     showOutput(message);
 }
-//showOutput(message);
+showOutput(message);
 let key=42;
 function getSecret(value)
 {
