@@ -27,9 +27,9 @@ let person = {
 
 let symbol = Symbol();
 let person1={
-    "fname":"Deepak",
-    "lastname":"kumar",
-    "age":"20",
+    fname:"Deepak",
+    lastname:"kumar",
+    age:"20",
     [symbol]:"Scret Information"
 };
 
@@ -55,7 +55,7 @@ function printMessage(message)
 //Pass by Reference
 function printPerson(person)
 {
-    person.age="45";
+    person.age=45;
 }
 
 //Standard Objects
@@ -73,6 +73,7 @@ showOutput(Math.random());
 
 //Number Example
 let nubmerTesting = 1.1+2.5;
+showOutput(typeof nubmerTesting);
 showOutput(nubmerTesting.toFixed(1));
 
 

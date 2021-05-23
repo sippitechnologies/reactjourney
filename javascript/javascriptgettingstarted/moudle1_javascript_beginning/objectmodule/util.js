@@ -5,6 +5,7 @@ function showOutput(message){
 function changeColor(color)
 {
     document.getElementById("message").style.color =color;
+    
 }
 function changeFont(weight)
 {
@@ -17,7 +18,7 @@ function attachButtonListener()
     document.getElementById("clicktest").addEventListener('click',function(){
         if(button.style.display==="none")
         {
-            button.style.display="block";
+            button.style.display="inline";
         }
         else
         {
