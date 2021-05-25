@@ -8,6 +8,11 @@
 </head>
 <body>
     <button onclick="simpleSwitchDemo()">Simple Switch Demo</button>
+    <button onclick="switchWithMultiplyCases()">Switch With Multiply Cases</button>
+    <button onclick="switchWithStrictComparaion()">Switch With Switch With Strict Comparaion</button>
+    <button onclick="switchWithoutBreak()">Switch WithoutBreak </button>
+    <button onclick="switchWitchWithoutBlock()">Switch without Block</button>
+    <button onclick="switchWithBlock()">Switch with Block</button>
 </body>
 <script>
     function simpleSwitchDemo()
@@ -30,5 +35,162 @@
                     break;
         }
     }
+
+    /*function switchWitchWithoutBlock()
+    {
+        let value=1;
+
+        switch(value)
+        {
+            case 1:
+                let testing="One";
+                console.log("I am in case 1");
+                break
+            case 2: 
+            let testing ="Two";
+            console.log("I am in case 2");
+            break;
+            case 3:
+                let testing="3";
+            console.log("I am in case 3");
+                break;
+                default:
+                    let testing = 4;
+                console.log("I am in case 4");
+                    break;
+        }
+    }*/
+
+    function switchWithBlock()
+    {
+        let value=1;
+
+        switch(value)
+        {
+            case 1:
+                {
+                    let testing="One";
+                console.log("I am in case 1");
+                break;
+                }
+              
+            case 2: 
+           {
+            let testing ="Two";
+            console.log("I am in case 2");
+            break;
+           }
+           
+            case 3:
+              {
+                let testing="3";
+            console.log("I am in case 3");
+                break;
+              }
+                default:
+                    {
+                        let testing = 4;
+                console.log("I am in case 4");
+                    break;
+                    }
+                  
+        }
+    }
+
+    function switchWithStrictComparaion()
+    {
+        let value ="2";
+        switch(value)
+        {
+            default:
+                console.log("I am Default");
+                break;
+            case 1:
+              console.log("first matched");
+            break;
+            case 2:
+                console.log("Second Matched");
+                break;
+             case 3:
+                 console.log("Third Matched");
+                    break;
+            case 4:
+                console.log("Fourth Matached");
+                        break;
+
+        }
+    }
+
+    function switchWithoutBreak()
+    {
+        let value =2;
+        switch(value)
+        {
+            default:
+                console.log("I am Default");
+                break;
+            case 1:
+              console.log("first matched");
+            break;
+            case 2:
+                console.log("Second Matched");
+                break;
+             case 3:
+                 console.log("Third Matched");
+                   
+            case 4:
+                console.log("Fourth Matached");
+                       
+
+        }
+    }
+    function switchWithStrictComparaion()
+    {
+        let value ="2";
+        switch(value)
+        {
+            default:
+                console.log("I am Default");
+                break;
+            case 1:
+              console.log("first matched");
+            break;
+            case 2:
+                console.log("Second Matched");
+                break;
+             case 3:
+                 console.log("Third Matched");
+                    break;
+            case 4:
+                console.log("Fourth Matached");
+                        break;
+
+        }
+    }
+    function switchWithMultiplyCases()
+    {
+        let value=1;
+
+        switch(value)
+        {
+            case 1:
+            case 2:
+            case 3:
+                console.log("I am Red Color");
+                break
+            case 5: 
+            case 6: 
+            case 7: 
+            console.log("I am Blue Color");
+            break;
+            case 10:
+            console.log("I am Green Color");
+                break;
+                default:
+                console.log("I am Black Color");
+                    break;
+        }
+    }
+    
 </script>
 </html>
